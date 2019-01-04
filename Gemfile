@@ -4,7 +4,7 @@ gemspec
 
 # Gems for authenticators
 group :ldap do
-    gem "net-ldap", "~> 0.1.1"
+  gem "net-ldap", "~> 0.1.1"
 end
 
 group :active_resource do
