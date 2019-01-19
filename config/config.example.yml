@@ -29,8 +29,8 @@
 # or Passenger.
 
 server: webrick
-port: 443
-ssl_cert: /path/to/your/ssl.pem
+port: 8888
+# ssl_cert: /path/to/your/ssl.pem
 
 # If your private key is in a separate file from the cert
 
@@ -54,7 +54,7 @@ ssl_cert: /path/to/your/ssl.pem
 # This lets you bind the server to a specific address. Use 0.0.0.0 to listen on
 # all available interfaces (this is the default).
 
-#bind_address: 0.0.0.0
+bind_address: 0.0.0.0
 
 
 ###
@@ -99,10 +99,10 @@ ssl_cert: /path/to/your/ssl.pem
 #   i.e. `mysqladmin -u root create casserver`)
 
 database:
-  adapter: mysql
+  adapter: postgresql
   database: casserver
-  username: root
-  password:
+  username: shike
+  password: shike
   host: localhost
   reconnect: true
 
@@ -419,14 +419,14 @@ database:
 # like logo.png and bg.png.
 #
 # By default, we use the 'simple' theme which you can find in themes/simple.
-theme: simple
+theme: shike
 
 # The name of your company/organization. This will show up on the login page.
-organization: CAS
+organization: 石刻
 
 # A short bit of text that shows up on the login page. You can make this blank
 # if you prefer to have no extra text shown at the bottom of the login box.
-infoline: Powered by <a href="http://rubycas.github.com">RubyCAS-Server</a>
+infoline: Powered by <a href="http://shike.in">石刻</a>
 
 # Custom views directory. If set, this will be used instead of 'lib/casserver/views'.
 #custom_views: /path/to/custom/views

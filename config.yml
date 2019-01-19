@@ -421,7 +421,7 @@ authenticator:
 # like logo.png and bg.png.
 #
 # By default, we use the 'simple' theme which you can find in themes/simple.
-theme: simple
+theme: shike
 
 # The name of your company/organization. This will show up on the login page.
 organization: 石刻

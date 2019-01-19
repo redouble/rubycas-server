@@ -1,0 +1,46 @@
+body {
+  background-image: url(bg.png);
+}
+
+#headline-container {
+  margin-bottom: 5px;
+}
+
+#login-box {
+  margin: 0 auto;
+  width: 700px;
+  top: 120px;
+  position: relative;
+}
+
+#login-form {
+  background-color: #fff;
+  border: 1px #aaa solid;
+}
+
+#logo-container {
+  vertical-align: middle;
+}
+
+#logo {
+  width: 128px;
+  height: 128px;
+}
+
+label {
+  font-size: 11px;
+}
+
+[type=text], [type=password] {
+  width: 90%!important;
+}
+
+#submit-container,
+#password-container, 
+#username-container {
+  text-align: right!important;
+}
+
+#submit-container {
+  padding-right: 1px!important;
+}
