@@ -177,7 +177,7 @@ authenticator:
   username_column: login
   password_column: hashed_password
   extra_attributes: id, session_id, name
-  encrypt_function: Digest::SHA2.hexdigest(@password + "hanlane" + user.salt)
+  encrypt_function: Digest::SHA2.hexdigest(@password + "shike" + user.salt)
 #
 # When replying to a CAS client's validation request, the server will normally
 # provide the client with the authenticated user's username. However it is
