@@ -14,7 +14,7 @@ custom/*
 /nbproject
 .irbrc_history
 resources/dev
-.rvmrc
+# .rvmrc
 .bundle
 .vagrant
 Vagrantfile
